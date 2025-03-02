@@ -21,5 +21,15 @@ namespace TrackerUI
         {
 
         }
+
+        private void headerlabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
