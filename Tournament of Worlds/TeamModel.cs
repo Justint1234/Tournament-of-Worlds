@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Tournament_of_Worlds
 {
-    class TrackerLibrary
+    public class TeamModel
     {
-        
+        public List<PersonModel> TeamMemebers { get; set; } = new List<PersonModel>();
+
+        public string TeamName { get; set; }
+
+
     }
 }
