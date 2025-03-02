@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35806.99 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentofWorlds", "Tournament of Worlds\TournamentofWorlds.csproj", "{60813C4A-1AB0-498E-91FF-CF31DA84FA57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackerUI", "TrackerUI\TrackerUI.csproj", "{B623001D-EDE3-4043-86B3-25C9C38914DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{60813C4A-1AB0-498E-91FF-CF31DA84FA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60813C4A-1AB0-498E-91FF-CF31DA84FA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60813C4A-1AB0-498E-91FF-CF31DA84FA57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B623001D-EDE3-4043-86B3-25C9C38914DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B623001D-EDE3-4043-86B3-25C9C38914DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B623001D-EDE3-4043-86B3-25C9C38914DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B623001D-EDE3-4043-86B3-25C9C38914DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
