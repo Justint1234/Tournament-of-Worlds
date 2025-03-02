@@ -37,12 +37,11 @@
             this.teamOneName = new System.Windows.Forms.Label();
             this.teamOneScoreLabel = new System.Windows.Forms.Label();
             this.teamOneScoreText = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.teamTwoName = new System.Windows.Forms.Label();
             this.teamTwoScoreLabel = new System.Windows.Forms.Label();
             this.teamTwoScoreText = new System.Windows.Forms.TextBox();
+            this.vsLabel = new System.Windows.Forms.Label();
+            this.scoreButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // headerlabel
@@ -124,6 +123,7 @@
             // teamOneScoreLabel
             // 
             this.teamOneScoreLabel.AutoSize = true;
+            this.teamOneScoreLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.teamOneScoreLabel.Location = new System.Drawing.Point(365, 255);
             this.teamOneScoreLabel.Name = "teamOneScoreLabel";
             this.teamOneScoreLabel.Size = new System.Drawing.Size(72, 29);
@@ -137,35 +137,10 @@
             this.teamOneScoreText.Size = new System.Drawing.Size(90, 37);
             this.teamOneScoreText.TabIndex = 8;
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(881, 537);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(78, 37);
-            this.textBox2.TabIndex = 11;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(788, 533);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 29);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Score";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label3.Location = new System.Drawing.Point(773, 487);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(143, 29);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "<Team One>";
-            // 
             // teamTwoName
             // 
             this.teamTwoName.AutoSize = true;
+            this.teamTwoName.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.teamTwoName.Location = new System.Drawing.Point(350, 356);
             this.teamTwoName.Name = "teamTwoName";
             this.teamTwoName.Size = new System.Drawing.Size(117, 29);
@@ -175,6 +150,7 @@
             // teamTwoScoreLabel
             // 
             this.teamTwoScoreLabel.AutoSize = true;
+            this.teamTwoScoreLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.teamTwoScoreLabel.Location = new System.Drawing.Point(352, 399);
             this.teamTwoScoreLabel.Name = "teamTwoScoreLabel";
             this.teamTwoScoreLabel.Size = new System.Drawing.Size(72, 29);
@@ -189,18 +165,40 @@
             this.teamTwoScoreText.Size = new System.Drawing.Size(89, 37);
             this.teamTwoScoreText.TabIndex = 14;
             // 
+            // vsLabel
+            // 
+            this.vsLabel.AutoSize = true;
+            this.vsLabel.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vsLabel.ForeColor = System.Drawing.Color.Red;
+            this.vsLabel.Location = new System.Drawing.Point(363, 304);
+            this.vsLabel.Name = "vsLabel";
+            this.vsLabel.Size = new System.Drawing.Size(54, 38);
+            this.vsLabel.TabIndex = 15;
+            this.vsLabel.Text = "VS";
+            // 
+            // scoreButton
+            // 
+            this.scoreButton.BackColor = System.Drawing.Color.LawnGreen;
+            this.scoreButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.scoreButton.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scoreButton.Location = new System.Drawing.Point(484, 306);
+            this.scoreButton.Name = "scoreButton";
+            this.scoreButton.Size = new System.Drawing.Size(95, 41);
+            this.scoreButton.TabIndex = 16;
+            this.scoreButton.Text = "Score";
+            this.scoreButton.UseVisualStyleBackColor = false;
+            // 
             // TournamentViewerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1733, 1061);
+            this.ClientSize = new System.Drawing.Size(637, 526);
+            this.Controls.Add(this.scoreButton);
+            this.Controls.Add(this.vsLabel);
             this.Controls.Add(this.teamTwoScoreText);
             this.Controls.Add(this.teamTwoScoreLabel);
             this.Controls.Add(this.teamTwoName);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.teamOneScoreText);
             this.Controls.Add(this.teamOneScoreLabel);
             this.Controls.Add(this.teamOneName);
@@ -231,12 +229,11 @@
         private System.Windows.Forms.Label teamOneName;
         private System.Windows.Forms.Label teamOneScoreLabel;
         private System.Windows.Forms.TextBox teamOneScoreText;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label teamTwoName;
         private System.Windows.Forms.Label teamTwoScoreLabel;
         private System.Windows.Forms.TextBox teamTwoScoreText;
+        private System.Windows.Forms.Label vsLabel;
+        private System.Windows.Forms.Button scoreButton;
     }
 }
 
